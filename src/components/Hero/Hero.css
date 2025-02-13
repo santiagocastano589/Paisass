@@ -1,0 +1,48 @@
+/*Hero*/
+
+.hero {
+    width: 100%;
+    height: 70vh;
+    background: url('../../assets/baloncesto.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.h2-sub {
+    font-size: 3rem;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: "Exo 2", serif;
+    color: #f4570a;
+    font-weight: 600;
+    line-height: .4;
+    text-shadow: 3px 3px #000000;
+}
+
+.fil {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.head {
+    color: #fff;
+    font-size: 3.7rem;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: "Exo 2", serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .5rem;
+    text-shadow: 5px 5px #000000;
+}
+
+.he-des h5 {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    text-shadow: 2px 2px #000000;
+}

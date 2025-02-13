@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import './Card.css';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/icon.png';
 
 
 

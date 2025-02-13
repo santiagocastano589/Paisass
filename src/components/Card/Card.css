@@ -54,7 +54,7 @@
 
 
 .card .description {
-    height: auto;
+    height: 400px;
     padding: 40px 20px 20px 20px;
     border-bottom: solid 1px #f4570a;
     text-align: left;

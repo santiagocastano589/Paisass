@@ -1,7 +1,10 @@
 import React from 'react'
 import { Header } from '../../Layouts/Header/Header'
 import { Card } from '../../Card/Card'
+import { Main } from '../../Layouts/Main/Main'
 import './Inicio.css'
+
+
 
 
 
@@ -20,7 +23,10 @@ export const Inicio = () => {
                 </div>
             </div>
         </section>
-        <Card/>
+        <Main>
+          <Card/>
+        </Main>
+
     </>
   )
 }

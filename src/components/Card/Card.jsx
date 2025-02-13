@@ -44,6 +44,20 @@ export const Card = () => {
                 day: "2-digit"
             });
 
+            const premio =  new Intl.NumberFormat('en-CO', { 
+                style: 'currency',
+                currency: 'COP',
+                minimumFractionDigits: 0
+            }).format(card.premio);
+
+            const inscripcion =  new Intl.NumberFormat('en-CO', { 
+                style: 'currency',
+                currency: 'COP',
+                minimumFractionDigits: 0
+            }).format(card.costo_inscripcion);
+
+           
+           
             return(
 
                 <div className="card" key={card.id}>
@@ -65,8 +79,8 @@ export const Card = () => {
                         <p>Ubicacion: <span>{card.ubicacion}</span></p>
                         <p>Estado de Torneo: <span>{card.estado}</span></p>
                         <p>Maximo de Equipos: <span>{card.max_equipos}</span></p>
-                        <p>Costo Inscripción: <span>${card.costo_inscripcion}</span></p>
-                        <p>Premio: <span>${card.premio}</span></p>
+                        <p>Costo Inscripción: <span>{inscripcion}</span></p>
+                        <p>Premio: <span>{premio}</span></p>
                     </div>
                     <div className="contact">
                         <a href="registro.html">Registrate</a>

@@ -127,8 +127,8 @@ header {
 .loguito{
     margin: 5px 0;
 	border-radius: 50%;
-	height: 70px;
-    width: 70px;
+	height: 60px;
+    width: 60px;
 	object-fit: cover;
 	object-position: center;
     box-shadow: 5px 1px 7px #000000;

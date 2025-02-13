@@ -1,0 +1,72 @@
+:root{
+    --clear: #fa1100;
+    --dark: #f4570a;
+    --degradado:linear-gradient(90deg, var(--dark), var(--clear));
+  }
+  
+  
+  body{
+      background: var(--degradado);
+  }
+
+
+  
+  /*form*/
+  .loguito2{
+      border-radius: 50%;
+      height: 100px;
+      object-fit: cover;
+      object-position: center;
+      width: 100px;
+  }
+  
+  .form-box{
+      width: 375px;
+      height: 800px;
+      position: relative;
+      margin: 6% auto;
+      background: #dadada;
+      opacity: 1;
+      background-size: 46px 46px;
+      background-position: 0 0,23px 23px;
+      padding: 5px;
+      border-radius: 10px;
+      box-shadow: 7px 13px 37px #000000;
+  }
+  
+  .input-group{
+      top: 20px;
+      position: absolute;
+      width: 280px;
+      transition: 0.8s;
+  }
+  
+  .input-field{
+      width: 100%;
+      padding: 11px 0;
+      margin: 8px 0;
+      border-left: 0;
+      border-top: 0;
+      border-right: 0;
+      border-bottom: 2px solid #f4570a;
+      outline: none;
+      background: transparent;
+  }
+  
+  .submit-btn{
+      width: 90%;
+      padding: 15px 30px;
+      cursor: pointer;
+      display: block;
+      margin: auto;
+      background: var(--degradado);
+      border: 0px;
+      outline: none;
+      border-radius: 30px;
+      box-shadow: 2px 4px 15px #000000;
+  }
+  
+  #form{
+      left: 50px;
+  }
+  

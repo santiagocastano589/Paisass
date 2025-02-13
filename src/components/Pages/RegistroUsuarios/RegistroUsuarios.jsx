@@ -1,29 +1,33 @@
 import React from 'react'
+import { Header } from '../../Layouts/Header/Header'
+import './RegistroUsuarios.css';
+
 
 export const RegistroUsuarios = () => {
   return (
-    <>
+    <div className='bodyRegistro'>
+        <Header/>
         <div className="container">
             <div className="form-box">
                 <form action="registro.php" method="post" className="input-group" id="form">
                     <center>
-                         <img class="loguito" src="imagenes/logo.png" alt="" />
+                         <img class="loguito2" src="imagenes/logo.png" alt="" />
                     </center>
 
-                        <label for="Codigo">Identificacion</label>
-                        <input type="text" class="input-field" placeholder="identificacion" name="identificacion"/>
+                        <label for="Codigo">Identificación</label>
+                        <input type="text" class="input-field" placeholder="Identificación" name="identificacion"/>
 
                         <label for="nombre">Nombre</label>
-                        <input type="text" class="input-field" placeholder="nombre" name="nombre"/>
+                        <input type="text" class="input-field" placeholder="Nombre" name="nombre"/>
 
                         <label for="fecha_nacimiento">Fecha Nacimiento</label>
-                        <input type="date" class="input-field" placeholder="fecha nacimiento" name="fecha_nacimiento"/>
+                        <input type="date" class="input-field" name="fecha_nacimiento"/>
 
                         <label for="correo">Correo</label>
-                        <input type="text" class="input-field" placeholder="correo" name="correo"/>
+                        <input type="text" class="input-field" placeholder="Correo" name="correo"/>
 
                         <label for="contrasena">Contraseña</label>
-                        <input type="password" class="input-field" placeholder="contrasena" name="contrasena"/>
+                        <input type="password" class="input-field" placeholder="Contraseña" name="contrasena"/>
 
                         <label for="sexo">Sexo</label>
                             <select class="input-field" name="sexo">
@@ -40,12 +44,12 @@ export const RegistroUsuarios = () => {
                         </select>
 
                         <label for="telefono">Teléfono</label>
-                        <input type="text" class="input-field" placeholder="telefono" name="telefono"/>
+                        <input type="text" class="input-field" placeholder="Teléfono" name="telefono"/>
                     
                         <button type="submit" class="submit-btn">Registrarse</button>
                 </form>
             </div>
         </div>
-    </>
+    </div>
   )
 }

@@ -27,13 +27,14 @@
 
 .head {
     color: #fff;
-    font-size: 3.7rem;
+    font-size: 4.5rem;
     /* font-family: 'Poppins', sans-serif; */
     font-family: "Exo 2", serif;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: .5rem;
     text-shadow: 5px 5px #000000;
+    margin: 10px 0;
 }
 
 .he-des h5 {
@@ -41,7 +42,6 @@
     font-size: 1.6rem;
     font-weight: 100;
     text-transform: uppercase;
-    margin-bottom: 1.2rem;
     letter-spacing: 3px;
     margin-right: -3px;
     text-shadow: 2px 2px #000000;
